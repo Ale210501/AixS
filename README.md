@@ -62,7 +62,4 @@ python Bagging_Neural_Network.py
 
 All models achieve high performance (>99% accuracy) on the DDoS classification task, with detailed confusion matrices and classification reports generated for each approach.
 
-## Authors
-
-Project developed as part of AIxS coursework.
 
