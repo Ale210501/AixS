@@ -113,15 +113,6 @@ def stratifiedKfold(X, y, folds, seed):
     
     return fold_splits
 
-def RFLearner(X, y, criterion='gini', max_features='sqrt', max_samples=1):
-    clf = RandomForestClassifier(criterion=criterion,
-                                 max_features=max_features,
-                                 max_samples=max_samples,
-                                 random_state=42)
-    clf.fit(X, y)
-    return clf
-
-
 def RFLearner(X, y, criterion='gini', max_features='sqrt', max_samples=1):    
     rf_model = RandomForestClassifier(
         criterion=criterion,
